@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *, *::before, *::after { box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    @apply bg-ink text-text font-body;
+    -webkit-font-smoothing: antialiased;
+    background-image:
+      radial-gradient(ellipse 80% 50% at 50% -10%, rgba(124,106,247,0.12) 0%, transparent 60%),
+      linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+    background-size: 100% 100%, 40px 40px, 40px 40px;
+    min-height: 100vh;
+  }
+
+  ::-webkit-scrollbar { width: 5px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-muted rounded-full;
+  }
+
+  ::selection {
+    @apply bg-accent/30 text-glow;
+  }
+}
+
+@layer components {
+  .glass {
+    background: rgba(22, 22, 31, 0.7);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(124,106,247,0.12);
+  }
+
+  .btn-primary {
+    @apply bg-accent text-white font-display font-semibold text-sm px-5 py-2.5 rounded-lg
+           hover:bg-glow transition-all duration-200 shadow-glow
+           disabled:opacity-40 disabled:cursor-not-allowed disabled:shadow-none;
+  }
+
+  .btn-ghost {
+    @apply border border-border text-dim font-body text-sm px-4 py-2 rounded-lg
+           hover:border-accent/50 hover:text-text transition-all duration-200;
+  }
+
+  .input-field {
+    @apply w-full bg-panel border border-border rounded-lg px-4 py-3
+           text-text text-sm font-body placeholder:text-muted
+           focus:outline-none focus:border-accent/60 focus:ring-1 focus:ring-accent/20
+           transition-all duration-200;
+  }
+
+  .card {
+    @apply bg-panel border border-border rounded-xl p-5 shadow-card;
+  }
+
+  .tag {
+    @apply inline-flex items-center gap-1.5 text-xs font-mono font-medium
+           bg-accent/10 text-glow border border-accent/20 rounded px-2 py-0.5;
+  }
+}
