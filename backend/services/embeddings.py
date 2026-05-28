@@ -2,9 +2,10 @@ from typing import List
 from openai import OpenAI
 from core.config import settings
 from core.logger import get_logger
+from sentence_transformers import SentenceTransformer
 
 logger = get_logger(__name__)
-client = OpenAI(api_key=settings.OPENAI_API_KEY)
+model = SentenceTransformer("all-MiniLM-L6-v2")
 
 
 def generate_embeddings(texts: List[str]) -> List[List[float]]:
@@ -27,18 +28,8 @@ def generate_embeddings(texts: List[str]) -> List[List[float]]:
     logger.info(f"Generating embeddings for {len(cleaned)} chunks...")
 
     # Batch in groups of 100 to stay within API limits
-    all_embeddings = []
-    batch_size = 100
+    vectors = model.encode(cleaned, show_progress_bar=True)
+    embeddings = [v.tolist() for v in vectors]
 
-    for i in range(0, len(cleaned), batch_size):
-        batch = cleaned[i: i + batch_size]
-        response = client.embeddings.create(
-            model=settings.EMBEDDING_MODEL,
-            input=batch
-        )
-        batch_embeddings = [item.embedding for item in response.data]
-        all_embeddings.extend(batch_embeddings)
-        logger.info(f"Embedded batch {i // batch_size + 1} | {len(batch)} chunks")
-
-    logger.info(f"Embedding complete. Total vectors: {len(all_embeddings)}")
-    return all_embeddings
+    logger.info(f"Embedding complete. Total vectors: {len(embeddings)}")
+    return embeddings

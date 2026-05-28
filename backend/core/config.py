@@ -9,8 +9,8 @@ class Settings(BaseSettings):
 
     # OpenAI
     OPENAI_API_KEY: str
-    OPENAI_MODEL: str = "gpt-4o"
-    EMBEDDING_MODEL: str = "text-embedding-3-small"
+    OPENAI_MODEL: str = "gemini-2.0-flash-lite"
+  
 
     # Chunking
     CHUNK_SIZE: int = 512
@@ -29,6 +29,7 @@ class Settings(BaseSettings):
     class Config:
         env_file = ".env"
         env_file_encoding = "utf-8"
+        extra="ignore"
 
 
 settings = Settings()

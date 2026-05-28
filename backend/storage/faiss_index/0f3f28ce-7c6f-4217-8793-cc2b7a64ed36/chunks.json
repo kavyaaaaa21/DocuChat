@@ -1,0 +1,52 @@
+[
+  {
+    "text": "Kavya Kolamkar\nkavyakolamkar\u200b\n@gmail.com\n \n(+91)7058199309\n \nPune\n \nlinkedin.com/in/kavya-kolamkar-37184434b\n \ngithub.com/kavyaaaaa21\n \nPROFILE\nPassionate about Data Science and Machine Learning Engineer with practical experience in deep \nlearning, predictive modelling, and data analysis from academic projects. competent in data visualisation \ntools, TensorFlow, and Python; additionally, proficient in n8n automation workflows. knowledgeable",
+    "page": 1,
+    "chunk_index": 0
+  },
+  {
+    "text": "tools, TensorFlow, and Python; additionally, proficient in n8n automation workflows. knowledgeable \nabout creating and implementing machine learning models with Flask and Streamlit, and enthusiastic \nabout turning unstructured data into insightful knowledge to create clever, practical solutions.\nPROFESSIONAL EXPERIENCE\nAI-ML INTERN, Forest By HeartFullness\u2060\n01//2025 \u2013 Present  | Pune\n\u2022Developing an end-to-end geospatial AI pipeline for automated tree species identification from high-",
+    "page": 1,
+    "chunk_index": 1
+  },
+  {
+    "text": "resolution drone orthoimagery (\u22643.5 cm/\u200b\npixel GeoTIFF) over agricultural plots in Hyderabad, India.\n\u2022The system processes 4-band RGBA rasters containing 3\u201331 million pixels and classifies 27+ tree species \nusing GPS-tagged ground truth (3,300+ georeferenced trees in UTM zone 44N).\n\u2022Contributed in creating the full deep learning pipeline for tree species recognition, from raw drone \nGeoTIFF imagery to per-tree species predictions\nEDUCATION AND TRAININGS\nBs in Data Science and Applications,",
+    "page": 1,
+    "chunk_index": 2
+  },
+  {
+    "text": "EDUCATION AND TRAININGS\nBs in Data Science and Applications, \nIndian Institute of Technology, Madras\n01/2024 \u2013 2028  | Pune, India\n\u2022Final grade:-7.0 CGPA\n\u2022Awareness, skills and techniques necessary for engaging in scientific & working in a professional \nmanner.\nB.E. Computer Engineering, \nInternational Institute of Information Technology\n08/2023 \u2013 2027  | Pune, India\n\u2022CGPA:-8.5\n\u2022Efficient in Machine Learning, Artificial Intelligence And Data Science and the concepts of Computer \nEngineering.",
+    "page": 1,
+    "chunk_index": 3
+  },
+  {
+    "text": "Engineering.\nSecondary School Certificate, St.Ursulas High School\n2009 \u2013 2021  | Pune, India\n\u2022Final grade: 85.00%\nTECHNICAL SKILLS\nLanguages and Databases (Python, C/C++, JavaScript, SQL (PostgreSQL and MySQL), MongoDB)\nML/AI Frameworks (Flask, FastAPI ,React ,TensorFlow, PyTorch,)\nData Science and Machine Learning (Data Preprocessing, Supervised Learning, Unsupervised Learning,\nConvolutional Neural Network(CNN),Recurrent Neural Network(RNN), Generative Adversarial\nNetworks(GAN))",
+    "page": 1,
+    "chunk_index": 4
+  },
+  {
+    "text": "Networks(GAN))\nAI/LLMs (Crew AI, LangGraph, RAG, Ollama (local LLM),ChromaDB)\nModel Deployment (Docker,AWS)\n|\n|\n|\n|",
+    "page": 1,
+    "chunk_index": 5
+  },
+  {
+    "text": "PROJECTS\nDerm-Scan-Growth-Tracking\u2060\n,\nPython \u00b7 React \u00b7 TensorFlow \u00b7 FastAPI \u00b7 PostgreSQL\n01/2026\n\u2022Developed DermScan, a full-stack clinical AI web application for early-stage skin lesion screening using \nEfficientNetB3 deep learning model trained on 25,000+ ISIC 2019 dermoscopy images. \n\u2022Trained EfficientNetB3 on 25,331 ISIC 2019 dermoscopy images with Grad-CAM explainability, \nautomated ABCDE clinical scoring, and lesion growth tracking across patient visits",
+    "page": 2,
+    "chunk_index": 6
+  },
+  {
+    "text": "automated ABCDE clinical scoring, and lesion growth tracking across patient visits\n\u2022Built a full-stack web app with FastAPI + React, featuring JWT authentication, PostgreSQL persistence, \nPDF clinical report generation, and a Recharts analytics dashboard\n\u2022Containerised with Docker Compose \u2014 FastAPI backend, React + Vite frontend served via Nginx, and \nPostgreSQL database\nChicken-Diseases-Classification\u2060\n,\nTensorFlow, Keras, Python ,Html, Docker,YaML\n03/2026",
+    "page": 2,
+    "chunk_index": 7
+  },
+  {
+    "text": "Chicken-Diseases-Classification\u2060\n,\nTensorFlow, Keras, Python ,Html, Docker,YaML\n03/2026\n\u2022Built an end-to-end Chicken Disease Classification system using Python, TensorFlow/Keras, and \nimage processing techniques for automated disease detection.\n\u2022Designed a modular ML pipeline covering data ingestion, training, evaluation, and prediction, with \nFlask API for deployment and real-time inference.\n\u2022Used OpenCV, DVC, and YAML-based configuration for data handling, version control, and \nreproducible workflows.",
+    "page": 2,
+    "chunk_index": 8
+  },
+  {
+    "text": "reproducible workflows.\nLANGUAGES\nEnglish\nMarathi\nHindi\nACHIVEMENTS\nCESA Techspark 2024\n\u2022Worked as the Team Member of Team Tri-netra ,a team which focused on making AI-Agents for solving \nreal world Government problems on rainwater harvesting and their subsidiary.\n\u2022Responsible for Handling the database and creation of AI-agent\n\u20222nd Runner up\n|\n|",
+    "page": 2,
+    "chunk_index": 9
+  }
+]

@@ -11,7 +11,10 @@ from core.config import settings
 from core.logger import get_logger
 
 logger = get_logger(__name__)
-client = AsyncOpenAI(api_key=settings.OPENAI_API_KEY)
+client = AsyncOpenAI(
+    api_key=settings.OPENAI_API_KEY,
+    base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
+)
 
 # In-memory quiz store (swap for Redis/DB in production)
 quiz_store: Dict[str, List[Question]] = {}

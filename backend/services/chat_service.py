@@ -6,7 +6,10 @@ from core.config import settings
 from core.logger import get_logger
 
 logger = get_logger(__name__)
-client = AsyncOpenAI(api_key=settings.OPENAI_API_KEY)
+client = AsyncOpenAI(
+    api_key=settings.OPENAI_API_KEY,
+    base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
+)
 
 SYSTEM_PROMPT = """You are DocuChat AI, an intelligent document assistant.
 Answer questions strictly based on the provided document context.
