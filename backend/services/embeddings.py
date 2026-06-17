@@ -5,7 +5,10 @@ from core.logger import get_logger
 from sentence_transformers import SentenceTransformer
 
 logger = get_logger(__name__)
-model = SentenceTransformer("all-MiniLM-L6-v2")
+client = OpenAI(
+    api_key=settings.OPENAI_API_KEY,
+    base_url="https://api.groq.com/openai/v1"
+)
 
 
 def generate_embeddings(texts: List[str]) -> List[List[float]]:
@@ -28,6 +31,7 @@ def generate_embeddings(texts: List[str]) -> List[List[float]]:
     logger.info(f"Generating embeddings for {len(cleaned)} chunks...")
 
     # Batch in groups of 100 to stay within API limits
+    model = SentenceTransformer("all-MiniLM-L6-v2")
     vectors = model.encode(cleaned, show_progress_bar=True)
     embeddings = [v.tolist() for v in vectors]
 

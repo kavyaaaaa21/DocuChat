@@ -1,0 +1,52 @@
+[
+  {
+    "text": "Kavya Kolamkar\nkavyakolamkar@gmail.com\n|\n+91-7058199309\n|\nPune, India\nlinkedin.com/in/kavya-kolamkar-37184434b\n|\ngithub.com/kavyaaaaa21\nSummary\nMachine Learning Engineer with hands-on experience building end-to-end geospatial AI pipelines, deep learning models, and\nfull-stack production applications. Skilled in computer vision, retrieval-augmented generation (RAG), and ML deployment using",
+    "page": 1,
+    "chunk_index": 0
+  },
+  {
+    "text": "Python, TensorFlow, PyTorch, FastAPI, and React, with proven results across healthcare, agriculture, and document-intelligence\ndomains.\nProfessional Experience\nAI/ML Intern\nForest by HeartfulNess\nPune, India\nJan 2026 \u2013 May 2026\n\u2022 Architected an end-to-end geospatial AI pipeline for automated tree species identification using high-resolution drone orthoim-\nagery (GeoTIFF, \u22643.5 cm/pixel).",
+    "page": 1,
+    "chunk_index": 1
+  },
+  {
+    "text": "agery (GeoTIFF, \u22643.5 cm/pixel).\n\u2022 Engineered a processing pipeline for 4-band RGBA rasters (3\u201331M pixels per tile), enabling classification across 27+ tree species\nover agricultural plots in Hyderabad, India.\n\u2022 Validated the model against 3,300+ GPS-tagged, georeferenced ground-truth trees in UTM Zone 44N, delivering the full deep\nlearning workflow from raw drone imagery to per-tree species predictions.\nTechnical Skills\nLanguages & Databases: Python, C/C++, JavaScript, SQL (PostgreSQL, MySQL), MongoDB",
+    "page": 1,
+    "chunk_index": 2
+  },
+  {
+    "text": "Technical Skills\nLanguages & Databases: Python, C/C++, JavaScript, SQL (PostgreSQL, MySQL), MongoDB\nLLM & Agentic AI: LangChain, LangGraph, CrewAI, Multi-Agent Systems, Ollama, ChromaDB, RAG\nFrameworks & Libraries: React, Node.js, FastAPI, Flask, Django, TensorFlow, PyTorch\nMachine Learning: Data Preprocessing, Feature Engineering, CNNs, RNNs, GANs, Supervised & Unsupervised Learning\nDeployment & Cloud: Docker, AWS, Vercel, Railway",
+    "page": 1,
+    "chunk_index": 3
+  },
+  {
+    "text": "Deployment & Cloud: Docker, AWS, Vercel, Railway\nData Structures & Algorithms: Dynamic Programming, Graph Algorithms, Trees, Greedy Algorithms, Sliding Window, Hash-\ning, Bit Manipulation\nProjects\nDermScan \u2013 Clinical Skin Lesion Screening & Growth Tracking\nJan 2026\nPython, React, TensorFlow, FastAPI, PostgreSQL, Docker\n\u2022 Developed a full-stack clinical AI application for early-stage skin lesion screening, training an EfficientNetB3 model on 25,331\nISIC 2019 dermoscopy images.",
+    "page": 1,
+    "chunk_index": 4
+  },
+  {
+    "text": "ISIC 2019 dermoscopy images.\n\u2022 Implemented Grad-CAM explainability and automated ABCDE clinical scoring for interpretable predictions, plus longitudinal\nlesion growth tracking across patient visits.\n\u2022 Built a full-stack platform with FastAPI and React, including JWT authentication, PostgreSQL persistence, automated PDF\nreport generation, and a Recharts analytics dashboard.\n\u2022 Containerized the stack with Docker Compose, orchestrating a FastAPI backend, Nginx-served React + Vite frontend, and",
+    "page": 1,
+    "chunk_index": 5
+  },
+  {
+    "text": "PostgreSQL database for streamlined deployment.\nDocuChat AI \u2013 RAG-based Document Intelligence Platform\nMar 2026\nPython, FastAPI, React, LangChain, FAISS, Sentence Transformers\n\u2022 Built a full-stack RAG application enabling users to upload PDFs and chat with documents via context-aware AI with page-level\nsource citations.\n\u2022 Designed an end-to-end RAG pipeline using PyMuPDF, LangChain, Sentence Transformers, FAISS, and the Gemini API for\ndocument parsing, semantic retrieval, and grounded generation.",
+    "page": 1,
+    "chunk_index": 6
+  },
+  {
+    "text": "document parsing, semantic retrieval, and grounded generation.\n\u2022 Developed an AI-powered quiz engine generating MCQ, True/False, and short-answer questions with automated evaluation and\ndetailed feedback reporting.\n\u2022 Architected modular REST APIs for document processing, vector search, chat, quiz generation, and evaluation, reducing\nhallucination via retrieval-grounded responses with exact page citations.\nEducation",
+    "page": 1,
+    "chunk_index": 7
+  },
+  {
+    "text": "hallucination via retrieval-grounded responses with exact page citations.\nEducation\nIndian Institute of Technology, Madras \u2013 B.S. in Data Science and Applications (CGPA: 7.0/10)\nJan 2024 \u2013 2028\nInternational Institute of Information Technology \u2013 B.E. in Computer Engineering (CGPA: 8.5/10)\nAug 2023 \u2013 2027\nSt. Ursula\u2019s High School \u2013 Secondary School Certificate (85.00%)\n2009 \u2013 2021\nAchievements\nCESA Techspark 2024 \u2013 2nd Runner-Up\nTeam Tri-Netra\n2024",
+    "page": 1,
+    "chunk_index": 8
+  },
+  {
+    "text": "2009 \u2013 2021\nAchievements\nCESA Techspark 2024 \u2013 2nd Runner-Up\nTeam Tri-Netra\n2024\n\u2022 Built an AI-agent system for government rainwater-harvesting challenges; owned database design and core agent development.\nGDG 2026 \u2013 Finalist\nTeam Slime\n2026\n\u2022 Built an AI model for skin disease/cancer classification; led backend development and model implementation.\nLeadership & Languages\nSocial Media Core Team Member\nCESA, I2IT\n2025 \u2013 2026\nLanguages: English, Marathi, Hindi",
+    "page": 1,
+    "chunk_index": 9
+  }
+]

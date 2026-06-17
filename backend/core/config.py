@@ -1,16 +1,18 @@
 from pydantic_settings import BaseSettings
 from typing import List
 
-
 class Settings(BaseSettings):
     # App
     APP_NAME: str = "DocuChat AI"
     DEBUG: bool = False
 
-    # OpenAI
+    # API Keys
     OPENAI_API_KEY: str
-    OPENAI_MODEL: str = "gemini-2.0-flash-lite"
-  
+    GROQ_API_KEY: str
+
+    # Models
+    OPENAI_MODEL: str = "llama-3.3-70b-versatile"
+    EMBEDDING_MODEL: str = "text-embedding-3-small"
 
     # Chunking
     CHUNK_SIZE: int = 512
@@ -24,12 +26,13 @@ class Settings(BaseSettings):
     FAISS_INDEX_DIR: str = "storage/faiss_index"
 
     # CORS
-    ALLOWED_ORIGINS: List[str] = ["http://localhost:3000", "http://localhost:8501"]
+    ALLOWED_ORIGINS: List[str] = [
+        "http://localhost:3000",
+        "http://localhost:8501"
+    ]
 
     class Config:
         env_file = ".env"
         env_file_encoding = "utf-8"
-        extra="ignore"
-
 
 settings = Settings()

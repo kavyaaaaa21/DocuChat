@@ -8,7 +8,7 @@ from core.logger import get_logger
 logger = get_logger(__name__)
 client = AsyncOpenAI(
     api_key=settings.OPENAI_API_KEY,
-    base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
+    base_url="https://api.groq.com/openai/v1"
 )
 
 SYSTEM_PROMPT = """You are DocuChat AI, an intelligent document assistant.
@@ -82,3 +82,4 @@ async def get_chat_response(
 
     logger.info(f"Chat response generated | citations={len(citations)}")
     return ChatResponse(answer=answer, citations=citations)
+
